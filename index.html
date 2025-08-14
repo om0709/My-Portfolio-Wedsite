@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Om Chaudhari — Portfolio</title>
+  <meta name="description" content="Om Chaudhari — AWS & Cloud Enthusiast · Web + IoT Developer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: "#4B0066",    // deep purple
+            accent: "#FF5757",   // active red
+            textc: "#0f172a",    // slate-900
+            subt: "#475569",      // slate-600
+            ringc: "#e2e8f0"      // slate-200
+          },
+          fontFamily: { inter: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior:smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-slate-50">
+  <!-- Header -->
+  <header class="sticky top-0 z-30 backdrop-blur bg-white/70 border-b border-[color:var(--ringc)]" style="--ringc:#e2e8f0">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 h-16">
+      <a href="#home" class="text-lg font-extrabold tracking-tight" style="color:#4B0066">Om Chaudhari</a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:underline underline-offset-8 text-[color:var(--textc)]" style="--textc:#0f172a">About</a>
+        <a href="#skills" class="hover:underline underline-offset-8 text-[color:var(--textc)]" style="--textc:#0f172a">Skills</a>
+        <a href="#projects" class="hover:underline underline-offset-8 text-[color:var(--textc)]" style="--textc:#0f172a">Projects</a>
+        <a href="#contact" class="hover:underline underline-offset-8 text-[color:var(--textc)]" style="--textc:#0f172a">Contact</a>
+        <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 font-medium px-3 py-2 rounded-full border border-[color:var(--ringc)] text-[color:var(--brand)]" style="--ringc:#e2e8f0; --brand:#4B0066">
+          <i data-lucide="github" class="w-4 h-4"></i> GitHub
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-16 md:py-24">
+    <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-medium" style="background:#4B00661A; color:#4B0066">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Open to Internships & Roles
+        </div>
+        <h1 class="mt-4 text-4xl md:text-6xl font-extrabold leading-[1.1] tracking-tight" style="color:#0f172a">
+          AWS & Cloud Enthusiast<br>
+          <span style="color:#4B0066">IoT Developer</span>
+        </h1>
+        <p class="mt-4 text-base md:text-lg" style="color:#475569">
+          SYBCA @ SPPU • Building clean UIs, practical cloud pipelines, and smart IoT systems. Focused on shipping real, useful projects.
+        </p>
+        <div class="mt-6 flex flex-wrap items-center gap-3">
+          <a href="mailto:omchaudhari0709@gmail.com?subject=Opportunity%20for%20Om%20Chaudhari" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold shadow-sm focus:outline-none focus:ring-2" style="background:#4B0066; color:#fff">
+            <i data-lucide="mail" class="w-4 h-4"></i> Contact Me
+          </a>
+          <a href="https://www.linkedin.com/in/om-chaudhari-2ba92028a" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold border border-[color:var(--ringc)] text-[color:var(--brand)] hover:shadow-sm" style="--ringc:#e2e8f0; --brand:#4B0066">
+            <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+          </a>
+          <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold border border-[color:var(--ringc)] text-[color:var(--brand)] hover:shadow-sm" style="--ringc:#e2e8f0; --brand:#4B0066">
+            <i data-lucide="github" class="w-4 h-4"></i> GitHub
+          </a>
+          <a href="file:///C:/Users/prat/Downloads/omchaudhari_cv.pdf" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold border border-[color:var(--ringc)] text-[color:var(--accent)] hover:shadow-sm" style="--ringc:#e2e8f0; --accent:#FF5757">
+            <i data-lucide="download" class="w-4 h-4"></i> Resume
+          </a>
+        </div>
+        <div class="mt-5 flex items-center gap-3 text-sm" style="color:#475569">
+          <i data-lucide="map-pin" class="w-4 h-4"></i> Pune, India • Available remotely
+        </div>
+      </div>
+      <div>
+        <div class="relative rounded-3xl p-1" style="background: linear-gradient(135deg,#4B0066,#FF5757)">
+          <div class="rounded-3xl p-6 md:p-10 bg-white">
+            <ul class="grid grid-cols-2 gap-3 text-sm">
+              <li class="rounded-2xl border p-4" style="border-color:#e2e8f0">
+                <div class="font-semibold" style="color:#0f172a">Clean UI</div>
+                <div class="mt-1" style="color:#475569">Responsive layouts</div>
+              </li>
+              <li class="rounded-2xl border p-4" style="border-color:#e2e8f0">
+                <div class="font-semibold" style="color:#0f172a">Cloud</div>
+                <div class="mt-1" style="color:#475569">EC2 + Jenkins</div>
+              </li>
+              <li class="rounded-2xl border p-4" style="border-color:#e2e8f0">
+                <div class="font-semibold" style="color:#0f172a">IoT</div>
+                <div class="mt-1" style="color:#475569">ESP8266 + LoRa</div>
+              </li>
+              <li class="rounded-2xl border p-4" style="border-color:#e2e8f0">
+                <div class="font-semibold" style="color:#0f172a">Learning</div>
+                <div class="mt-1" style="color:#475569">DSA & Web</div>
+              </li>
+            </ul>
+            <a href="#projects" class="mt-6 w-full inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 font-semibold border border-[color:var(--ringc)] text-[color:var(--brand)]" style="--ringc:#e2e8f0; --brand:#4B0066">
+              See Projects <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section helper -->
+  <template id="pill">
+    <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569"></span>
+  </template>
+
+  <!-- About -->
+  <section id="about" class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-16 md:py-24">
+    <div class="mb-8 md:mb-12">
+      <div class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium" style="border-color:#e2e8f0; color:#4B0066">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Who I am
+      </div>
+      <h2 class="mt-3 text-3xl md:text-4xl font-extrabold tracking-tight" style="color:#0f172a">About</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="md:col-span-2">
+        <p class="text-base md:text-lg leading-7" style="color:#475569">
+          I'm Om Chaudhari, a developer focused on practical, job‑ready projects across web, cloud, and embedded systems. I enjoy building clean, accessible interfaces, automating deployments on AWS, and wiring sensors to make data useful.
+        </p>
+        <p class="mt-4 text-base md:text-lg leading-7" style="color:#475569">
+          Currently SYBCA at SPPU, exploring DSA and modern web development while leading small projects end‑to‑end—planning, implementation, and deployment.
+        </p>
+      </div>
+      <div class="rounded-2xl border p-5 bg-white" style="border-color:#e2e8f0">
+        <div class="font-semibold mb-2" style="color:#0f172a">Quick Facts</div>
+        <ul class="space-y-2 text-sm" style="color:#475569">
+          <li>Open to internships (Cloud, DevOps, Web, IoT)</li>
+          <li>Comfortable with Linux, Git, and AWS basics</li>
+          <li>Hands‑on with sensors, modules, and wiring</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-16 md:py-24">
+    <div class="mb-8 md:mb-12">
+      <div class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium" style="border-color:#e2e8f0; color:#4B0066">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> What I use to build
+      </div>
+      <h2 class="mt-3 text-3xl md:text-4xl font-extrabold tracking-tight" style="color:#0f172a">Skills</h2>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="rounded-2xl border p-6 bg-white" style="border-color:#e2e8f0">
+        <div class="text-lg font-semibold" style="color:#0f172a">Cloud & DevOps</div>
+        <div class="mt-3 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">AWS (EC2)</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Jenkins</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Git & GitHub</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Linux</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Apache</span>
+        </div>
+      </div>
+      <div class="rounded-2xl border p-6 bg-white" style="border-color:#e2e8f0">
+        <div class="text-lg font-semibold" style="color:#0f172a">Embedded & IoT</div>
+        <div class="mt-3 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">ESP8266</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">LoRa</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">BMP280</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">NEO‑6M GPS</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">DHT22</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">C/C++</span>
+        </div>
+      </div>
+      <div class="rounded-2xl border p-6 bg-white" style="border-color:#e2e8f0">
+        <div class="text-lg font-semibold" style="color:#0f172a">Web</div>
+        <div class="mt-3 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">HTML</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">CSS</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">JavaScript</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Responsive UI</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Accessibility</span>
+        </div>
+      </div>
+      <div class="rounded-2xl border p-6 bg-white" style="border-color:#e2e8f0">
+        <div class="text-lg font-semibold" style="color:#0f172a">Tools</div>
+        <div class="mt-3 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">VS Code</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Postman</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Figma</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Arduino IDE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-16 md:py-24">
+    <div class="mb-8 md:mb-12">
+      <div class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium" style="border-color:#e2e8f0; color:#4B0066">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Selected work
+      </div>
+      <h2 class="mt-3 text-3xl md:text-4xl font-extrabold tracking-tight" style="color:#0f172a">Projects</h2>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Project card template -->
+      <a href="https://www.linkedin.com/in/om-chaudhari-2ba92028a/details/projects/" target="_blank" rel="noreferrer" class="group block rounded-2xl p-5 md:p-6 bg-white shadow-sm hover:shadow-md transition-shadow border" style="border-color:#e2e8f0">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-xl md:text-2xl font-bold" style="color:#0f172a">Makeito — Marketplace for Metal & Wood Fabrication</h3>
+            <p class="mt-2 text-sm md:text-base" style="color:#475569">Web‑first platform connecting customers with fabricators; planning Flutter/Firebase app; built brand, flows, and prototype site.</p>
+          </div>
+          <i data-lucide="external-link" class="opacity-70 group-hover:opacity-100 w-5 h-5"></i>
+        </div>
+        <div class="mt-4 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Product Design</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Flutter</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Firebase</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Dart</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Web</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="group block rounded-2xl p-5 md:p-6 bg-white shadow-sm hover:shadow-md transition-shadow border" style="border-color:#e2e8f0">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-xl md:text-2xl font-bold" style="color:#0f172a">IoT Rocket Telemetry & Auto‑Landing Trigger</h3>
+            <p class="mt-2 text-sm md:text-base" style="color:#475569">ESP8266 + LoRa + BMP280 + GPS + DHT22; real‑time altitude streaming; relay triggers at 5 m during descent.</p>
+          </div>
+          <i data-lucide="external-link" class="opacity-70 group-hover:opacity-100 w-5 h-5"></i>
+        </div>
+        <div class="mt-4 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">ESP8266</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">LoRa</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">BMP280</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">GPS</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">DHT22</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">C/C++</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="group block rounded-2xl p-5 md:p-6 bg-white shadow-sm hover:shadow-md transition-shadow border" style="border-color:#e2e8f0">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-xl md:text-2xl font-bold" style="color:#0f172a">AWS CI/CD: HTML/CSS → Jenkins → EC2 (Apache)</h3>
+            <p class="mt-2 text-sm md:text-base" style="color:#475569">End‑to‑end pipeline from GitHub to Amazon Linux EC2 via Jenkins; static Flipkart‑like UI deployed on Apache.</p>
+          </div>
+          <i data-lucide="external-link" class="opacity-70 group-hover:opacity-100 w-5 h-5"></i>
+        </div>
+        <div class="mt-4 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">AWS EC2</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Jenkins</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">GitHub</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Linux</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Apache</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="group block rounded-2xl p-5 md:p-6 bg-white shadow-sm hover:shadow-md transition-shadow border" style="border-color:#e2e8f0">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-xl md:text-2xl font-bold" style="color:#0f172a">Portfolio & Mini Web Projects</h3>
+            <p class="mt-2 text-sm md:text-base" style="color:#475569">Growing set of clean, responsive UIs with accessible components and modern CSS patterns.</p>
+          </div>
+          <i data-lucide="external-link" class="opacity-70 group-hover:opacity-100 w-5 h-5"></i>
+        </div>
+        <div class="mt-4 flex flex-wrap">
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">HTML</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">CSS</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">JS</span>
+          <span class="inline-flex items-center rounded-full border text-xs md:text-sm px-3 py-1 mr-2 mb-2" style="border-color:#e2e8f0; color:#475569">Accessibility</span>
+        </div>
+      </a>
+    </div>
+    <div class="mt-6 text-sm" style="color:#475569">
+      More on my GitHub →
+      <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="ml-1 underline" style="color:#4B0066">github.com/om0709</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-16 md:py-24">
+    <div class="mb-8 md:mb-12">
+      <div class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium" style="border-color:#e2e8f0; color:#4B0066">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Let's talk
+      </div>
+      <h2 class="mt-3 text-3xl md:text-4xl font-extrabold tracking-tight" style="color:#0f172a">Contact</h2>
+    </div>
+    <div class="rounded-2xl border p-6 bg-white" style="border-color:#e2e8f0">
+      <p class="text-base" style="color:#475569">
+        The fastest way to reach me is via email or LinkedIn. I'm happy to discuss internships, part‑time roles, or project collaborations.
+      </p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="mailto:omchaudhari@email.com?subject=Opportunity%20for%20Om%20Chaudhari" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold shadow-sm focus:outline-none focus:ring-2" style="background:#4B0066; color:#fff">
+          <i data-lucide="mail" class="w-4 h-4"></i> Email
+        </a>
+        <a href="https://www.linkedin.com/in/om-chaudhari-2ba92028a" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold border border-[color:var(--ringc)] text-[color:var(--brand)] hover:shadow-sm" style="--ringc:#e2e8f0; --brand:#4B0066">
+          <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+        </a>
+        <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold border border-[color:var(--ringc)] text-[color:var(--brand)] hover:shadow-sm" style="--ringc:#e2e8f0; --brand:#4B0066">
+          <i data-lucide="github" class="w-4 h-4"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t" style="border-color:#e2e8f0">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 text-sm flex flex-col md:flex-row items-center justify-between gap-3" style="color:#475569">
+      <div>© <span id="year"></span> Om Chaudhari. All rights reserved.</div>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/om0709" target="_blank" rel="noreferrer" class="hover:underline" style="color:#4B0066"><i data-lucide="github" class="w-4 h-4 inline"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/om-chaudhari-2ba92028a" target="_blank" rel="noreferrer" class="hover:underline" style="color:#4B0066"><i data-lucide="linkedin" class="w-4 h-4 inline"></i> LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // icons + year
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) lucide.createIcons();
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>
